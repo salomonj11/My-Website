@@ -849,7 +849,8 @@ body.project>* {
 .banner {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    margin-bottom: 30px;
 }
 
 #abstract+p {
@@ -1205,3 +1206,8 @@ button.disqus-load {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+#cat_countdown {
+    text-align: center;
+}
